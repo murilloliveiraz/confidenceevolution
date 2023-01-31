@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome , .how_help_you , .who_we_are , .our_team {
+    height: 680px;
+}
+
+.header_image img{
+    position: absolute;
+    width: 217px;
+    height: 96px;
+}
+
+.welcome{
+    background-color: #071555;
+    color: #fff;
+    font-weight: 300;
+}
+
+.welcome_content{
+    display: flex;
+    flex-direction: column;
+    height: 451px;
+    position: absolute;
+    left: 22px;
+    top: 111px;
+}
+
+.welcome_text h1 {
+    font-size: 40px;
+    padding-bottom: 32px;
+}
+
+.welcome_text {
+    justify-content: center;   
+}
+
+.welcome_button button {
+    border-radius: 20px;
+    width: 247px;
+    height: 48px;
+    position: absolute;
+    top:386px ;
+    left: 0px;
+
+    background: linear-gradient(86.96deg, #5C80FF 4.36% , #1a52e4 93.5%) ;
+}
