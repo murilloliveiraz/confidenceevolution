@@ -108,3 +108,21 @@ body h1 {
     top: 366px;
     background-color: rgb(156, 25, 25);
 }
+.service3 {
+ position: absolute;
+width: 308px;
+height: 316px;
+left: 0px;
+top: 0px;
+background-color: rgb(156, 25, 25);
+
+    }
+
+.service4{
+position: absolute;
+width: 308px;
+height: 316px;
+left: 0px;
+top: 366px;
+background-color: rgb(156, 25, 25);
+}
