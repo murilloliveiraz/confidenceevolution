@@ -6,20 +6,28 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 
-.welcome , .how_help_you , .who_we_are , .our_team {
-    height: 680px;
+body h1 {
+    font-weight: 600;
+    font-size: 50px;
 }
 
-.header_image img{
-    position: absolute;
-    width: 217px;
-    height: 96px;
+.welcome , .who_we_are {
+    height: 711px;
+}
+
+.how_help_you{
+    height:929px ;
+}
+
+.our_team{
+    height: 752px;
 }
 
 .welcome{
-    background-color: #071555;
+    background: linear-gradient(to right , #314755 , #26a0da);
     color: #fff;
     font-weight: 300;
 }
@@ -27,15 +35,12 @@
 .welcome_content{
     display: flex;
     flex-direction: column;
-    height: 451px;
+    width: 511px;
+    height: 431px;
     position: absolute;
-    left: 22px;
-    top: 111px;
-}
-
-.welcome_text h1 {
-    font-size: 40px;
-    padding-bottom: 32px;
+    left: 92px;
+    top: 131px;
+    gap: 32px;
 }
 
 .welcome_text {
@@ -47,8 +52,59 @@
     width: 247px;
     height: 48px;
     position: absolute;
-    top:386px ;
-    left: 0px;
+    top:396px ;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.519);
 
     background: linear-gradient(86.96deg, #5C80FF 4.36% , #1a52e4 93.5%) ;
+}
+
+.how_help_content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 418px;
+    height: 397px;
+    left: 78px;
+    top: 995px;
+}
+
+.content_services {
+    position: absolute;
+    width: 666px;
+    height: 682px;
+    left: 769px;
+    top: 815px;
+    background-color: lightblue;
+}
+
+.group1{
+    position: absolute;
+    width: 308px;
+    height: 682px;
+    background-color: #1a52e4;
+}
+
+.group2{
+    position: absolute;
+    width: 308px;
+    height: 682px;
+    left: 358px;
+    background-color: #1a52e4;
+}
+
+.service1{
+    background-color: rgb(156, 25, 25);
+    width: 308px;
+    height: 316px;
+}
+
+.service2{
+    width: 308px;
+    height: 316px;
+    top: 366px;
+    background-color: rgb(156, 25, 25);
 }
