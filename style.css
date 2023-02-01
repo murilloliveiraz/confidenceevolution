@@ -12,6 +12,11 @@
 body h1 {
     font-weight: 600;
     font-size: 50px;
+    color: #fff;
+}
+
+body p {
+    color: #fff;
 }
 
 .welcome , .who_we_are {
@@ -27,7 +32,8 @@ body h1 {
 }
 
 .welcome{
-    background: linear-gradient(to right , #314755 , #26a0da);
+    /*linear-gradient(to right , #314755 , #26a0da)*/
+    background-image: url(imagens/pagina-1.png);
     color: #fff;
     font-weight: 300;
 }
@@ -57,6 +63,10 @@ body h1 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.519);
 
     background: linear-gradient(86.96deg, #5C80FF 4.36% , #1a52e4 93.5%) ;
+}
+
+.how_help_you{
+    background-image: url(imagens/pagina-2.png);
 }
 
 .how_help_content{
@@ -125,4 +135,12 @@ height: 316px;
 left: 0px;
 top: 366px;
 background-color: rgb(156, 25, 25);
+}
+
+.who_we_are{
+    background: url(imagens/pagina-3.png);
+}
+
+.our_team{
+    background: url(imagens/pagina-4.png);
 }
