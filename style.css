@@ -17,6 +17,7 @@ body h1 {
 
 .welcome , .who_we_are {
     height: 711px;
+    
 }
 
 .how_help_you{
@@ -32,6 +33,7 @@ body h1 {
     background-image: url(imagens/pagina-1.png);
     color: #fff;
     font-weight: 300;
+    width: 100%;
 }
 
 .welcome_image img {
