@@ -5,8 +5,12 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;    
+}
+
+body {
+    width: 98vw;
+    height: 100vh;
 }
 
 body h1 {
@@ -15,25 +19,16 @@ body h1 {
     color: #fff;
 }
 
-.welcome , .who_we_are {
-    height: 711px;
-    
-}
 
-.how_help_you{
-    height:929px ;
-}
-
-.our_team{
-    height: 752px;
-}
 
 .welcome{
     /*linear-gradient(to right , #314755 , #26a0da)*/
     background-image: url(imagens/pagina-1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
     color: #fff;
     font-weight: 300;
-    width: 100%;
+    height: 711px; 
 }
 
 .welcome_image img {
@@ -79,6 +74,8 @@ button a {
 
 .how_help_you{
     background-image: url(imagens/pagina-2.png);
+    height:929px ;
+    background-size: cover;
 }
 
 .how_help_content{
@@ -205,11 +202,11 @@ top: 382px;
 
 .who_we_are{
     background: url(imagens/pagina-3.png);
+    height: 711px; 
+    background-size: cover;
+    
 }
 
-.our_team{
-    background: url(imagens/pagina-4.png) ;
-}
 
 .who_we_are_content {
     color: #fff;
@@ -225,65 +222,15 @@ top: 382px;
 
 .who_we_are_img img {
     position: absolute;
-width: 659px;
-height: 449.78px;
-left: 769px;
-top: 1755px;
-border-radius: 20px;
+    width: 659px;
+    height: 449.78px;
+    left: 769px;
+    top: 1755px;
+    border-radius: 20px;
 }
 
-
-
-
-.our_team_content{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 40px;
-width: 1371px;
-height: 411px;
-flex: none;
-order: 1;
-flex-grow: 0;
+.our_team{
+    background: url(imagens/pagina-4.png) ;
+    height: 752px;
+    background-size: cover;
 }
-
-.our_team_divs{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 40px;
-    
-width: 1371px;
-height: 411px;
-}
-
-.murilo{
-    position: absolute;
-    width: 308px;
-    height: 411px;
-    left: 0px;
-    top: 0px;
-    
-    background: #FFFFFF;
-    border-radius: 30px;
-
-background: #FFFFFF;
-border-radius: 30px;
-
-}
-
-.murilo img{
-position: absolute;
-width: 308px;
-height: 241.76px;
-left: 0px;
-top: 0px;
-border-radius: 30px 30px 0px 0px;
-}
-
-
-
-
-
