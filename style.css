@@ -36,9 +36,8 @@ body h1 {
 .welcome_image img {
 position: absolute;
 width: 217px;
-height: ;
 left: 74px;
-top:;
+
     
 }
 
@@ -67,6 +66,7 @@ top:;
 
     background: linear-gradient(86.96deg, #5C80FF 4.36% , #1a52e4 93.5%) ;
 }
+
 
 
 button a {
