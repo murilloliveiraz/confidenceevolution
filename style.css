@@ -34,10 +34,12 @@ body h1 {
 }
 
 .welcome_image img {
-    position: absolute;
-    width: 650px;
-    left: 700px;
-    opacity: 0.6;
+position: absolute;
+width: 217px;
+height: ;
+left: 74px;
+top:;
+    
 }
 
 .welcome_content{
@@ -55,9 +57,9 @@ body h1 {
 .welcome_button button {
     border-radius: 20px;
     width: 247px;
-    height: 48px;
+    height: 75px;
     position: absolute;
-    top:396px ;
+    top:396px;
     border: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.519);
     cursor: pointer;
@@ -66,9 +68,11 @@ body h1 {
     background: linear-gradient(86.96deg, #5C80FF 4.36% , #1a52e4 93.5%) ;
 }
 
+
 button a {
     text-decoration: none;
     color: #fff;
+    text-align: center;
 }
 
 .how_help_you{
@@ -173,7 +177,7 @@ button a {
 }
 
 .service2 img {
-    position: absolute;
+position: absolute;
 width: 60px;
 height: 68px;
 left: 25px;
@@ -189,7 +193,7 @@ top: 362px;
 }
 
 .service4 img {
-    position: absolute;
+ position: absolute;
 width: 60px;
 height: 63px;
 left: 25px;
@@ -239,14 +243,14 @@ top: 362px;
 }
 
 .team_div{
-    position: absolute;
+position:absolute;
 width: 1394px;
 height: 447px;
-left: 77px;
+left: 350px;
 }
 
 .team {
-    display: flex;
+display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
@@ -260,7 +264,7 @@ height: 411px;
     height: 400px;
     background-color: #fff;
     border-radius: 30px;
-    
+
 }
 
 .colaborator img {
@@ -276,10 +280,10 @@ height: 411px;
 }
 
 .grow_together {
-    position: absolute;
+position: absolute;
 width: 1354px;
 height: 140px;
-left: 91px;
+left: 370px;
 top:580px ;
 background-color: #1a52e4;
 border-radius: 20px;
