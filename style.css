@@ -260,6 +260,7 @@ height: 411px;
     height: 400px;
     background-color: #fff;
     border-radius: 30px;
+    
 }
 
 .colaborator img {
@@ -270,6 +271,7 @@ height: 411px;
 
 .colaborator h2 , p {
    padding-left: 10px;
+   font-size: larger;
    
 }
 
