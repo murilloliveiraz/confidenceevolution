@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body h1 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+}
+
+body p {
+    color: #fff;
+}
+
+.bemvindo {
+    width: 98vw;
+    background-image: url(imagens/pagina-1.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.bemvindo img {
+    width: 217px;
+    padding-left: 104px;    
+}
+
+.bemvindocontent {
+    width: 550px;
+    height: 600px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 154px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-image:linear-gradient(86.96deg, #5C80FF, #1A52E4);
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.como_vamos_te_ajudar {
+    background: url(imagens/pagina-2.png);
+    background-size: cover;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comoteajudar_text {
+    width: 550px;
+    height: 600px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 74px;
+    justify-content: center;
+}
+
+.comoteajudar_servicos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 550px;
+    gap: 50px;
+}
+
+.servicos {
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+}
+
+
+.quem_somos_nos {
+    background: url(imagens/pagina-3.png);
+    background-size: cover;
+    width: 98vw;
+    height: 100vh;
+}
+
+.nosso_time {
+    background: url(imagens/pagina-4.png);
+    background-size: cover;
+    width: 98vw;
+    height: 100vh;
+}
