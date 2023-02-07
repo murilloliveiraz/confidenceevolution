@@ -81,11 +81,242 @@ button a {
     gap: 50px;
 }
 
-.servicos {
-    background-color: #fff;
+.servicos1 {
+    background-color: #ffffff;
     width: 250px;
     height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
 }
+
+.servicos1 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos1 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos1 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+
+
+
+.servicos2 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+.servicos2 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos2 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos2 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+
+.servicos3 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+.servicos3 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos3 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos3 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+
+
+.servicos2 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+.servicos2 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos2 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos2 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+
+.servicos3 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+.servicos3 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos3 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos3 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+.servicos3 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+.servicos3 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos3 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos3 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+
+.servicos4 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 250px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+}
+
+.servicos4 h2 {
+    padding-left: 10px;
+    font-size: larger;
+}
+.servicos4 p{
+    
+    left: 26px;
+    top: 480px;
+    height: 44px;
+    padding-left:10px;
+    color: black;
+    
+;
+}
+
+.servicos4 img{
+    width: 64px;
+    height: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .quem_somos_nos {
@@ -95,9 +326,32 @@ button a {
     height: 100vh;
 }
 
+
+
+.quem_somos_nos_text {
+    width: 550px;
+    height: 600px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 74px;
+    justify-content: center;
+}
+
+.quem_somos_nos img{
+    width: 659px;
+    height: 449.78px;
+    left: px;
+    top: 1755px;
+    border-radius: 20px;
+}
+
+
 .nosso_time {
     background: url(imagens/pagina-4.png);
     background-size: cover;
     width: 98vw;
     height: 100vh;
 }
+
