@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    .bemvindo {
+     background: url(imagens/pagina-1-celular.png);
+     width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    }
+
+    .bemvindo img {
+        width: 150px;
+        height: 150px;
+        padding-left: 4px; 
+        padding-top: 30px;   
+    }
+    
+    .bemvindocontent {
+        width: 90vw;
+        height: 700px;
+        padding-left: 14px;
+    }
+
+    .bemvindocontent h1 {
+        font-size: 40px;
+    }
+
+    .como_vamos_te_ajudar {
+        background: url(imagens/pagina-2-celular.png);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .comoteajudar_text {
+        width: 90vw;
+        height: 300px;
+        padding: 0px;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    
+    .comoteajudar_servicos {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        height: 300px;
+        gap: 20px;
+    }
+    
+    .servicos {
+        background-color: #ffffff;
+        width: 250px;
+        height: 250px;
+        color: black;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .servicos h2 {
+        padding-left: 10px;
+    }
+    .servicos p{
+        padding-left:10px;
+        color: black;
+    }
+    
+    .servicos img{
+        padding-left: 10px;
+        padding-top: 15px;
+        width: 64px;
+        height: 60px;
+    
+    }
+    
+    
+    
+    
+ }
