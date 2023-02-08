@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px) {
+
+
     .bemvindo {
      background: url(imagens/pagina-1-celular.png);
      width: 100vw;
@@ -37,31 +39,40 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        justify-content: space-around;
+        padding-top: 30px;
     }
     
     .comoteajudar_text {
-        width: 90vw;
-        height: 300px;
-        padding: 0px;
+        width: 90%;
+        height: 200px;
+       padding: 0px;
+       margin: 0px;
         text-align: justify;
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 5px;
+    }
+
+    .comoteajudar_text h1 {
+            font-size: 40px;
     }
     
     .comoteajudar_servicos {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        width: 85%;
-        height: 300px;
-        gap: 20px;
+        width: 90%;
+        height: 400px;
+        row-gap: 5px;
+        column-gap: 15px;
+
     }
     
     .servicos {
         background-color: #ffffff;
-        width: 250px;
-        height: 250px;
+        width: 160px;
+        height: 180px;
         color: black;
         display:flex;
         flex-direction: column;
@@ -69,19 +80,132 @@
     
     .servicos h2 {
         padding-left: 10px;
+        font-size: 18px;
     }
     .servicos p{
         padding-left:10px;
         color: black;
+        font-size: 14px;
     }
     
     .servicos img{
         padding-left: 10px;
         padding-top: 15px;
-        width: 64px;
-        height: 60px;
+        width: 40px;
+        height: 35px;
     
     }
+
+
+.quem_somos_nos {
+    background: url(imagens/pagina-3-celular.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 55px;
+    align-items: center;
+}
+
+.quem_somos_nos h1 {
+    font-size: 37px;
+}
+
+.quem_somos_nos_text {
+    width: 90vw;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.quem_somos_nos_img img{
+    width: 90vw;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.nosso_time {
+    background: url(imagens/pagina-4-celular.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.nosso_time h1 {
+    font-size: 40px;
+    padding-left: 0px;
+}
+
+
+.div_nosso_time {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90vw;
+    height: 730px;
+}
+
+.funcionarios {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.funcionariostext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.funcionarios h2 {
+    font-size: 20px;
+}
+
+.funcionarios img {
+    width:100px ;
+    border-radius: 30px 0px 0px 30px;
+} 
+
+.whatsapp {
+    position: fixed;  
+    height: 90px;
+    width: 90px;
+    bottom: 20px;
+    right: 52px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.whatsapp p {
+    width: 120px;
+    font-size: small;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 12px;
+    text-decoration: solid;
+
+}
+
+.whatsapp img {
+    width: 65px;
+    height:65px;
+    border-radius: 10px;
+}
     
     
     
