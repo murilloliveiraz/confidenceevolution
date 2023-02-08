@@ -113,11 +113,12 @@
 }
 
 .quem_somos_nos h1 {
-    font-size: 37px;
+    padding-top: 74px;
+    font-size: 34px;
 }
 
 .quem_somos_nos_text {
-    width: 90vw;
+    width: 85vw;
     height: 200px;
     padding: 0px;
     margin: 0px;
@@ -181,30 +182,20 @@
 
 .whatsapp {
     position: fixed;  
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     bottom: 20px;
-    right: 52px; 
+    right: 32px; 
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-.whatsapp p {
-    width: 120px;
-    font-size: small;
-    color: #000;
-    background-color: #fff;
-    border-radius: 10px;
-    padding-left: 12px;
-    text-decoration: solid;
-
-}
-
 .whatsapp img {
-    width: 65px;
-    height:65px;
+    width: 55px;
+    height:55px;
     border-radius: 10px;
+    box-shadow: 2px 2px 1px  #fff;
 }
     
     
