@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body h1 {
     font-weight: 600;
     font-size: 50px;
@@ -16,6 +20,31 @@ body h1 {
 
 body p {
     color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 130px;
+}
+
+.header_links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 600px;
+    
+}
+
+.header_links a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.header_links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .bemvindo {
@@ -211,6 +240,7 @@ button a {
     width: 65px;
     height:65px;
     border-radius: 10px;
+        box-shadow: 2px 2px 1px  #fff;
 }
 
 .nossasredes {
