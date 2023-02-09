@@ -55,7 +55,8 @@
     }
 
     .comoteajudar_text h1 {
-            font-size: 40px;
+            font-size: 37px;
+            width: 90%;
     }
     
     .comoteajudar_servicos {
@@ -142,6 +143,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+    gap: 40px;
 }
 
 .nosso_time h1 {
@@ -197,8 +199,57 @@
     border-radius: 10px;
     box-shadow: 2px 2px 1px  #fff;
 }
+
+.nossasredes {
+    display: flex;
+    justify-content: center;
+}
+
+.nossasredes img {
+    width: 50px; 
+}
+
+.nossasredes a {
+    display: flex;
+    padding: 16px;
+}
+
+.nossasredes a:hover {
+    background: rgba(0,0,0 , 0.6);
+}
+
+
+
     
     
-    
-    
+ }
+
+ @media screen and (min-width:768px) and (max-width:992px) {
+    .bemvindo {
+        background: url(imagens/pagina-1.png);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .como_vamos_te_ajudar {
+        background: url(imagens/pagina-2.png);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .quem_somos_nos {
+        background: url(imagens/pagina-3.png);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .nosso_time {
+        background: url(imagens/pagina-4.png);
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }    
  }
