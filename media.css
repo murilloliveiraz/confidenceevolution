@@ -239,11 +239,29 @@
         background-size: cover;
     }
 
+    .comoteajudar_text{
+        gap: 40px;
+    }
+
+    .comoteajudar_text h1 {
+        width: 500px;
+        font-size: 40px;
+    }
+
     .quem_somos_nos {
         background: url(imagens/pagina-3.png);
         width: 100vw;
         height: 100vh;
         background-size: cover;
+    }
+
+    .quem_somos_nos h1 {
+        font-size: 40px;
+    }
+
+    .quem_somos_nos_img img {
+        width: 80vw;
+        height: 40svw;
     }
 
     .nosso_time {
