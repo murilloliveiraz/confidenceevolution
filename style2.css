@@ -62,6 +62,10 @@ button a {
     justify-content: space-around;
 }
 
+.como_vamos_te_ajudar h1 {
+    width: 448px;
+}
+
 .comoteajudar_text {
     width: 550px;
     height: 600px;
@@ -207,6 +211,26 @@ button a {
     width: 65px;
     height:65px;
     border-radius: 10px;
+}
+
+.nossasredes {
+    display: flex;
+    justify-content: center;
+}
+
+.nossasredes img {
+    width: 40px; 
+
+}
+
+.nossasredes a {
+    display: flex;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.nossasredes a:hover {
+    background: rgba(0,0,0 , 0.6);
 }
 
 
