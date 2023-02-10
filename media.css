@@ -13,22 +13,28 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    
+    
     }
+
+
 
 
 .header_links ul {
     display: flex;
     flex-wrap: wrap;
     width: 225px;
-        column-gap: 15px;
-    
+    column-gap: 15px;
+       
 }
 
 .header_links a {
     padding-left: 25px;
+
+    
 }
 
-    .bemvindo img {
+   .bemvindo img {
         width: 150px;
         height: 150px;
         padding-left: 4px; 
@@ -210,7 +216,8 @@
     width: 55px;
     height:55px;
     border-radius: 10px;
-    box-shadow: 2px 2px 1px  #fff;
+    box-shadow: 2px 2px 1px  #ffffff;
+    
 }
 
 .nossasredes {
@@ -259,6 +266,7 @@
     .comoteajudar_text h1 {
         width: 500px;
         font-size: 40px;
+        max-width: 768px;
     }
 
     .quem_somos_nos {

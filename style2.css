@@ -41,10 +41,13 @@ body p {
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
+    font-weight:900;
 }
 
 .header_links a:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    
+
 }
 
 .bemvindo {
@@ -69,6 +72,8 @@ body p {
     padding-left: 154px;
 }
 
+
+
 button {
     width: 250px;
     height: 50px;
@@ -79,6 +84,7 @@ button {
 button a {
     color: #fff;
     text-decoration: none;
+    font-weight:900;
 }
 
 .como_vamos_te_ajudar {
@@ -92,7 +98,8 @@ button a {
 }
 
 .como_vamos_te_ajudar h1 {
-    width: 448px;
+    width: 91%;
+    
 }
 
 .comoteajudar_text {
@@ -229,7 +236,7 @@ button a {
     width: 120px;
     font-size: small;
     color: #000;
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     padding-left: 12px;
     text-decoration: solid;
@@ -240,7 +247,6 @@ button a {
     width: 65px;
     height:65px;
     border-radius: 10px;
-        box-shadow: 2px 2px 1px  #fff;
 }
 
 .nossasredes {
