@@ -17,19 +17,7 @@
     
     }
 
-    .bemvindoimg {
-        display: none;
-    }
 
-    .bemvindocontent {
-        width: 100%;
-        padding-top: 0px;
-    }
-    
-    .bemvindotext {
-       width: 100%;
-        padding-left: 0px;
-    }
 
 
 .header_links ul {
@@ -262,10 +250,6 @@
         width: 100vw;
         height: 100vh;
         background-size: cover;
-    }
-
-    .bemvindoimg {
-        display: none;
     }
 
     .como_vamos_te_ajudar {
