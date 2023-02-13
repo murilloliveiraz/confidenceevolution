@@ -27,6 +27,7 @@ body p {
     align-items: center;
     justify-content: space-between;
     padding-right: 130px;
+    height: 200px;
 }
 
 .header_links ul {
@@ -57,12 +58,30 @@ body p {
     background-size: cover;
 }
 
-.bemvindo img {
+.header img {
     width: 217px;
+    height: 200px;
     padding-left: 104px;    
 }
 
+ .bemvindoimg {
+     width: 740px ;
+     height: 730px;
+    padding-bottom: 140px;
+} 
+
+
 .bemvindocontent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.bemvindotext {
     width: 550px;
     height: 600px;
     text-align: justify;
@@ -70,6 +89,11 @@ body p {
     flex-direction: column;
     gap: 32px;
     padding-left: 154px;
+}
+
+.bemvindoimg img {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -98,7 +122,7 @@ button a {
 }
 
 .como_vamos_te_ajudar h1 {
-    width: 91%;
+    width: 81%;
     
 }
 
