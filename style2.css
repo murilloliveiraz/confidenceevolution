@@ -33,14 +33,14 @@ body p {
     justify-content: space-between;
     padding-right: 130px;
     height: 200px;
-    width: 90%;
+    width: 100%;
 }
 
 .header_links ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
-    width: 100%;
+    width: 600px;
     
 }
 
@@ -58,7 +58,7 @@ body p {
 }
 
 .bemvindo {
-    width: 100vw;
+    width: 100%;
     background-image: url(imagens/pagina-1.png);
     height: 100vh;
     background-size: cover;
@@ -80,7 +80,7 @@ body p {
 .bemvindocontent {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     height: 500px;
     justify-content: space-around;
     align-items: center;
@@ -120,7 +120,7 @@ button a {
 .como_vamos_te_ajudar {
     background: url(imagens/pagina-2.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -180,7 +180,7 @@ button a {
 .quem_somos_nos {
     background: url(imagens/pagina-3.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -209,7 +209,7 @@ button a {
 .nosso_time {
     background: url(imagens/pagina-4.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
