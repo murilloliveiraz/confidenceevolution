@@ -51,7 +51,7 @@ body p {
 }
 
 .bemvindo {
-    width: 100vw;
+    width: 100%;
     background-image: url(imagens/pagina-1.png);
     height: 100vh;
     background-size: cover;
@@ -108,7 +108,7 @@ button a {
 .como_vamos_te_ajudar {
     background: url(imagens/pagina-2.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -164,11 +164,57 @@ button a {
 
 }
 
+.service_plans {
+    background: url(imagens/pagina-dos-planos.jpg);
+    height: 100vh;
+    width: 100%;
+}
+
+.service_plans p  {
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.plan  h2 {
+    color: #5C80FF;
+}
+
+.price {
+    font-size: 2.5rem;
+}
+
+
+.plantext p {
+    font-size: 0.8rem;
+}
+
+.plantext span {
+    font-size: 0.9rem;
+}
+
+.plantext h2 {
+    font-size: 1.2rem;
+}
+
+.plans {
+    width: 80%;
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan {
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+}
+
 
 .quem_somos_nos {
     background: url(imagens/pagina-3.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -188,7 +234,7 @@ button a {
 }
 
 .quem_somos_nos_img img{
-    width: 609px;
+    width: 600px;
     height: 450px;
     border-radius: 20px;
 }
@@ -197,7 +243,7 @@ button a {
 .nosso_time {
     background: url(imagens/pagina-4.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -244,22 +290,12 @@ button a {
     height: 90px;
     width: 90px;
     bottom: 20px;
-    right: 52px; 
+    right: 22px; 
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-.whatsapp p {
-    width: 120px;
-    font-size: small;
-    color: #000;
-    background-color: #000000;
-    border-radius: 10px;
-    padding-left: 12px;
-    text-decoration: solid;
-
-}
 
 .whatsapp img {
     width: 65px;
@@ -270,6 +306,7 @@ button a {
 .nossasredes {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .nossasredes img {
