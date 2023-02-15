@@ -51,7 +51,7 @@ body p {
 }
 
 .bemvindo {
-    width: 100vw;
+    width: 100%;
     background-image: url(imagens/pagina-1.png);
     height: 100vh;
     background-size: cover;
@@ -108,7 +108,7 @@ button a {
 .como_vamos_te_ajudar {
     background: url(imagens/pagina-2.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -168,7 +168,7 @@ button a {
 .quem_somos_nos {
     background: url(imagens/pagina-3.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -188,7 +188,7 @@ button a {
 }
 
 .quem_somos_nos_img img{
-    width: 609px;
+    width: 600px;
     height: 450px;
     border-radius: 20px;
 }
@@ -197,7 +197,7 @@ button a {
 .nosso_time {
     background: url(imagens/pagina-4.png);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -244,22 +244,12 @@ button a {
     height: 90px;
     width: 90px;
     bottom: 20px;
-    right: 52px; 
+    right: 22px; 
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-.whatsapp p {
-    width: 120px;
-    font-size: small;
-    color: #000;
-    background-color: #000000;
-    border-radius: 10px;
-    padding-left: 12px;
-    text-decoration: solid;
-
-}
 
 .whatsapp img {
     width: 65px;
@@ -270,6 +260,7 @@ button a {
 .nossasredes {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .nossasredes img {
