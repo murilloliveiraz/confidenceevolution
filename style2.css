@@ -172,44 +172,63 @@ button a {
 
 .service_plans p  {
     color: #000;
-    font-size: 0.8rem;
+    text-align: justify;
 }
 
 .plan  h2 {
     color: #5C80FF;
-}
-
-.price {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 
-.plantext p {
-    font-size: 0.8rem;
-}
 
 .plantext span {
     font-size: 0.9rem;
 }
 
-.plantext h2 {
-    font-size: 1.2rem;
-}
-
 .plans {
     width: 80%;
-    height: 620px;
+    height: 420px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .plan {
     background-color: #fff;
     width: 30%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
+.plan_content #button {
+    background: #5C80FF;
+    border: none;
+    box-shadow: 2px 2px 2px #0000006b;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+#button span {
+    font-size: 30px;
+}
+
+.plan_content {
+    width: 90%;
+    margin: auto;
+}
+
+.plantext p {
+    font-size: 0.8rem;
+}
 
 .quem_somos_nos {
     background: url(imagens/pagina-3.png);
