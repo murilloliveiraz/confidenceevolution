@@ -142,6 +142,62 @@
     align-items: center;
 }
 
+.service_plans {
+    background: url(imagens/pagina-dos-planos.jpg);
+    height: 100vh;
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.plan  h2  {
+    font-size: 2rem;
+}
+
+
+.plan_included span {
+    font-size: 0.9rem;
+}
+
+.plans {
+    width: 300%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    overflow-x: auto;
+}
+
+
+.plan {
+    width: 30%;
+    height: 100%;
+}
+
+
+
+.price {
+    margin: auto;
+}
+
+
+.plan_objective {
+    height: 170px;
+}
+
+.plan_objective h3{
+padding-bottom: 8px;
+}
+
+.plan_content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+
 .quem_somos_nos h1 {
     padding-top: 74px;
     font-size: 34px;

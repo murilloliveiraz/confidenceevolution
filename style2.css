@@ -159,27 +159,44 @@ button a {
 .servicos img{
     padding-left: 10px;
     padding-top: 15px;
-    width: 64px;
-    height: 60px;
+    width: 54px;
+    height: 50px;
 
 }
 
 .service_plans {
     background: url(imagens/pagina-dos-planos.jpg);
-    height: 100vh;
+    height: 200vh;
     width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .service_plans p  {
-    color: #000;
+    color: #fff;
     text-align: justify;
 }
 
-.plan  h2 {
-    color: #5C80FF;
+.plan  h2  {
+    color: #fff;
     font-size: 2rem;
+    text-align: center;
 }
 
+.plan h3 {
+    color: #fff;
+}
+
+.plan span {
+    color: #5C80FF;
+}
+
+.plan::-webkit-scrollbar {
+    width: 0px;
+}
 
 
 .plan_included span {
@@ -188,7 +205,7 @@ button a {
 
 .plans {
     width: 80%;
-    height: 420px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -197,10 +214,10 @@ button a {
 
 
 .plan {
-    background-color: #ffffff;
+
     width: 30%;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
     border-radius: 16px;
     border: 3px solid #5C80FF;
     box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.389);
@@ -237,25 +254,43 @@ padding-bottom: 8px;
 }
 
 .plan_content {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 42px;
+}
+
+ hr {
+    border: 1px solid #5C80FF;
 }
 
 .plan_included p {
     font-size: 0.8rem;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
-
-.plan.active .plan_content {
+.plan_included {
     height: auto;
+    padding-bottom: 15px;
 }
 
-/* .plan.active .content::before {
-    visibility: hidden;
-} */
+.plan_included h3 {
+    padding-bottom: 16px;
+}
+
+#button span {
+    color: #fff;
+}
+
+#button:hover {
+    background-color: transparent;
+    color: #5C80FF;
+    cursor: pointer;
+
+}
+
 
 
 .quem_somos_nos {
