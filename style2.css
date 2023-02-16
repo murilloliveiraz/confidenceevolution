@@ -182,7 +182,7 @@ button a {
 
 
 
-.plantext span {
+.plan_included span {
     font-size: 0.9rem;
 }
 
@@ -192,16 +192,18 @@ button a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow: hidden;
+  
 }
 
+
 .plan {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 30%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-
+    overflow: hidden;
+    border-radius: 16px;
+    border: 3px solid #5C80FF;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.389);
 }
 
 .plan_content #button {
@@ -217,18 +219,44 @@ button a {
     width: 100%;
 }
 
+.price {
+    margin: auto;
+}
+
+
 #button span {
     font-size: 30px;
+}
+
+.plan_objective {
+    height: 170px;
+}
+
+.plan_objective h3{
+padding-bottom: 8px;
 }
 
 .plan_content {
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
 }
 
-.plantext p {
+.plan_included p {
     font-size: 0.8rem;
 }
+
+
+.plan.active .plan_content {
+    height: auto;
+}
+
+/* .plan.active .content::before {
+    visibility: hidden;
+} */
+
 
 .quem_somos_nos {
     background: url(imagens/pagina-3.png);
