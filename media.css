@@ -144,9 +144,11 @@
 
 .service_plans {
     background: url(imagens/pagina-dos-planos.jpg);
-    height: 200vh;
+    height: 215vh;
     width: 100%;
-    overflow-x: auto;
+    align-items: left;
+    overflow: hidden;
+    align-items: flex-start;
 }
 
 
@@ -160,12 +162,13 @@
 }
 
 .plans {
-    width: 300%;
+    width: 230%;
     height: auto;
     display: flex;
     flex-direction: row;
     column-gap: 12px;
-    overflow-x: auto;
+   overflow-x: auto;
+      
 }
 
 
