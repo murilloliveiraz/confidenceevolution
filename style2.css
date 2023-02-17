@@ -78,8 +78,8 @@ body p {
 
 .mockup{
     position: absolute;
-    top: 20px;
-    left: 700px;
+    top: 2%;
+    left: 46%;
     width: 600px;
 }
 
@@ -166,19 +166,24 @@ button a {
 
 .service_plans {
     background: url(imagens/pagina-dos-planos.jpg);
-    height: 200vh;
+    height: 240vh;
     width: 100%;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
+.service_plans h1 {
+    width: 80%;
+}
+
 .service_plans p  {
     color: #fff;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .plan  h2  {
@@ -238,17 +243,13 @@ button a {
     align-items: center;
     height: 50px;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .price {
-    margin: auto;
+    margin-top: 16px;
 }
 
-
-#button span {
-    font-size: 30px;
-}
 
 .plan_objective {
     height: 170px;
@@ -272,7 +273,7 @@ font-size: 30px;
 }
 
 .plan_included p {
-    font-size: 20px;
+    font-size: 16px;
     padding-bottom: 12px;
     padding-top: 12px;
 }
@@ -284,7 +285,7 @@ font-size: 30px;
 
 .plan_included h3 {
     padding-bottom: 16px;
-    font-size: 30px;
+    font-size: 27px;
 
 }
 
@@ -349,13 +350,13 @@ font-size: 30px;
     display: flex;
     flex-direction: row;
     gap: 40px;
-    width: 1415px;
-    height: 430px;
+    width: 90%;
+    height: 400px;
 }
 
 .funcionarios {
-    width: 250px;
-    height: 400px;
+    width: 18%;
+    height: 100%;
     background-color: #fff;
     border-radius: 30px;
     
@@ -371,7 +372,7 @@ font-size: 30px;
 }
 
 .funcionarios img {
-    width:250px ;
+    width:100% ;
     border-radius: 30px 30px 0px 0px;
 }
 

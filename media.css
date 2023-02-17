@@ -144,7 +144,7 @@
 
 .service_plans {
     background: url(imagens/pagina-dos-planos.jpg);
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     overflow-x: auto;
 }
