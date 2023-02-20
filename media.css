@@ -143,40 +143,36 @@
 }
 
 .service_plans {
-    background: url(imagens/pagina-dos-planos.jpg);
-    height: 215vh;
-    width: 100%;
-    align-items: left;
-    overflow: hidden;
+    background: url(imagens/CELULAR-WEB.jpg);
+    height: 230vh;
+    width: 100vw;
     align-items: flex-start;
+    overflow: scroll;
 }
 
+.service_plans h1 {
+    width: 100%;
+}
 
-.plan  h2  {
+.plan h2 {
     font-size: 2rem;
 }
-
 
 .plan_included span {
     font-size: 0.9rem;
 }
 
 .plans {
-    width: 230%;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    column-gap: 12px;
-   overflow-x: auto;
-      
+    width: 230%;
+   
 }
 
-
-.plan {
+ .plan{
+    height: auto;
     width: 30%;
-    height: 100%;
-}
-
+    
+} 
 
 
 .price {
@@ -185,7 +181,7 @@
 
 
 .plan_objective {
-    height: 170px;
+    height: 250px;
     
 }
 
@@ -200,8 +196,7 @@ padding-bottom: 8px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 52px;
-}
+} 
 
 
 .quem_somos_nos h1 {
@@ -321,6 +316,10 @@ padding-bottom: 8px;
         width: 100vw;
         height: 100vh;
         background-size: cover;
+    }
+
+    .mockup {
+        display: none;
     }
 
     
